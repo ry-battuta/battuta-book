@@ -40,15 +40,15 @@ class Person(models.Model):
         return self.email
 
 # SIGNALS METHODS :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-def generate_token_on_creation(instance, **kwargs):
-    """ Creates an api token for a user/Account if one doesn't already exit """
-    instance = instance
-    if instance and not instance.token:
-        if type(instance) is Person:
-            token = Token.objects.create(user=instance)
-            instance.token = token.key
-            instance.save()
+#
+# def generate_token_on_creation(instance, **kwargs):
+#     """ Creates an api token for a user/Account if one doesn't already exit """
+#     instance = instance
+#     if instance and not instance.token:
+#         if type(instance) is Person:
+#             token = Token.objects.create(user=instance)
+#             instance.token = token.key
+#             instance.save()
 
 
 def ensure_lower_case_email(instance, sender, **kwargs):
@@ -57,5 +57,5 @@ def ensure_lower_case_email(instance, sender, **kwargs):
 # SIGNALS :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 # Attach signals to User model
-pre_save.connect(ensure_lower_case_email, sender=Person)
-post_save.connect(generate_token_on_creation, sender=Person)
+#pre_save.connect(ensure_lower_case_email, sender=Person)
+#post_save.connect(generate_token_on_creation, sender=Person)
