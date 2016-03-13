@@ -18,7 +18,7 @@
     url: "/api/v1/person"
 
   class PersonCollection extends Backbone.Collection
-    url: "/api/v1/person"
+    url: "/api/v1/people"
     model: Person
 
   API =

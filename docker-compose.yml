@@ -29,7 +29,8 @@ webapp:
     dockerfile: ./webapp/Dockerfile
     volumes:
         - ./webapp/starter:/srv/starter
-        - /srv/static-files
+        - ./public:/srv/client
+        - /srv/srv-static
     expose:
         - "8000"
     links:
