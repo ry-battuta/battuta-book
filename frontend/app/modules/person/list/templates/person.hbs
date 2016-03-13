@@ -1,21 +1,23 @@
-<div class="person">
-  <img src="{{avatar}}" class="avatar">
+<div class="col-md-3">
+    <div class="person">
+      <img src="{{avatar}}" class="avatar">
 
-  <div class="overlay">
+      <div class="overlay">
 
-  <h2>{{first_name}} {{last_name}}</h2>
-  <h3>{{profession}}</h3>
-    <div class='icons'>
-        <a href="#" class="twitter">{{twitter_handle}}</a>
-        <a href="#" class="email">{{email}}</a>
-        <a href="#" class="link">URL</a>
+      <h2>{{first_name}} {{last_name}}</h2>
+      <h3>{{profession}}</h3>
+        <div class='icons'>
+            <a href="#" class="twitter">{{twitter_handle}}</a>
+            <a href="#" class="email">{{email}}</a>
+            <a href="#" class="link">URL</a>
+        </div>
+        <div class="tags">
+            {{#each skills}}
+              <a href="#">{{this}}</a>
+            {{/each}}
+        </div>
+
+
+      </div>
     </div>
-    <div class="tags">
-        {{#each skills}}
-          <a href="#">{{this}}</a>
-        {{/each}}
-    </div>
-
-
-  </div>
 </div>
