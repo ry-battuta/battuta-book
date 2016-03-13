@@ -1,0 +1,36 @@
+[
+{
+    "model": "person.person",
+    "pk": "0600f10a-f8e4-43f8-9c82-374771828b74",
+    "fields": {
+        "email": "user1@remoteyear.com",
+        "token": "",
+        "is_active": true,
+        "is_admin": false,
+        "first_name": "user",
+        "last_name": "one",
+        "twitter_handle": "@userone",
+        "homebase": "homebase1",
+        "profession": "nerd1",
+        "current_location": "buenos aires",
+        "blurb": "this is a test one"
+    }
+},
+{
+    "model": "person.person",
+    "pk": "0600f10a-f8e4-43f8-9c82-374771828b75",
+    "fields": {
+        "email": "user3@remoteyear.com",
+        "token": "",
+        "is_active": true,
+        "is_admin": false,
+        "first_name": "user",
+        "last_name": "two",
+        "twitter_handle": "@usertwo",
+        "homebase": "homebase2",
+        "profession": "nerd1",
+        "current_location": "buenos aires",
+        "blurb": "this is a test two"
+    }
+}
+]
