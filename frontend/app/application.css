@@ -1,0 +1,6 @@
+#main-region {
+    padding-top: 70px;
+    height: auto !important;
+    margin: 0 auto -60px;
+    min-height: 100%;
+}

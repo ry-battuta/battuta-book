@@ -1,4 +1,4 @@
-import uuid
+import uuid, hashlib
 from rest_framework.authtoken.models import Token
 
 from django.db import models
@@ -67,6 +67,12 @@ class Person(models.Model):
         # The user is identified by their email address
         return self.first_name + " " + self.last_name
 
+
+    def get_avatar(self):
+        email = self.email
+        size = 400
+        gravatar_url = "http://www.gravatar.com/avatar/" + hashlib.md5(email.lower()).hexdigest() + "?s=" + str(size)
+        return  gravatar_url
 
 # SIGNALS METHODS :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 #
