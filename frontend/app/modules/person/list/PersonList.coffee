@@ -12,7 +12,7 @@
   class Person extends Marionette.ItemView
     template: require './templates/person'
     modelEvents:
-      "change" : "render"
+      "sync" : "render"
 
   class PersonCollection extends Marionette.CollectionView
     childView: Person
