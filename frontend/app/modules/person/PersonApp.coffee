@@ -13,7 +13,7 @@ require "./create/PersonCreate"
 
 	class PersonRouter extends Marionette.AppRouter
 		appRoutes:
-			''                                            : 'list'
+			'home'                                        : 'list'
 			'create'                                      : 'create'
 
 	App.addInitializer ->
