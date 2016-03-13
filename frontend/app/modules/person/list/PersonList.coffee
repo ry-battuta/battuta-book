@@ -1,4 +1,4 @@
-@App.module "People.List", (List, App, Backbone, Marionette, $, _) ->
+@App.module "PersonApp.List", (List, App, Backbone, Marionette, $, _) ->
 
   Controller =
     list: (region) ->
