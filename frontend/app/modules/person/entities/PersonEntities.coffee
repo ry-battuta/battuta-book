@@ -1,4 +1,4 @@
-@App.module "People.Entities", (Entities, App, Backbone, Marionette, $, _) ->
+@App.module "PersonApp.Entities", (Entities, App, Backbone, Marionette, $, _) ->
 
   class Person extends Backbone.Model
     defaults:
@@ -13,6 +13,7 @@
       skills: ['Software'],
       current_location: 'Buenos Aires',
       blurb: 'Here I am'
+    url: "/api/v1/person"
 
   class PersonCollection extends Backbone.Collection
     url: "/api/v1/person"
@@ -27,5 +28,8 @@
       personCollection.add(new Person())
       personCollection.add(new Person())
       personCollection
+    create: () ->
+      new Person()
 
   App.reqres.setHandler 'person:entities:list', () -> API.list()
+  App.reqres.setHandler 'person:entities:create', () -> API.create()
