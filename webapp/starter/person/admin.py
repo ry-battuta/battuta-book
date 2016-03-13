@@ -34,19 +34,19 @@ class PersonAdmin(admin.ModelAdmin):
 
 @admin.register(Tag)
 class TagAdmin(admin.ModelAdmin):
-    list_display = ('name',)
-    ordering = ('name',)
+    list_display = ('name', 'group')
+    ordering = ('name', 'group')
     search_fields = ('name',)
     readonly_fields = ('id',)
 
     def get_fieldsets(self, request, obj=None):
         if obj:
             # update
-            fieldsets = [(None, {'fields': ('id', 'name')}),]
+            fieldsets = [(None, {'fields': ('id', 'name', 'group')}),]
             return fieldsets
         else:
             # create
-            fieldsets = [(None, {'fields': ('id', 'name')}),]
+            fieldsets = [(None, {'fields': ('id', 'name', 'group')}),]
             return fieldsets
 
 
