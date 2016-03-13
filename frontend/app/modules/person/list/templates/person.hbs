@@ -1,6 +1,5 @@
 <div class="person col-md-2">
-  <img src="{{avatar}}" class="avatar">
-
+  <img src="{{avatar}}" class="avatar" class="img-thumbnail">
   <div class="overlay">
 
   <h2>{{first_name}} {{last_name}}</h2>
@@ -10,15 +9,20 @@
         <a href="http://twitter.com/{{twitter_handle}}" class="twitter" target="_blank"></a>
         {{/if}}
         {{#if email}}
-        <a href="mailto:{{email}}" class="email">@</a>
+        <a href="mailto:{{email}}" class="email"></a>
         {{/if}}
-        <a href="#" class="link">URL</a>
+        {{#each links}}
+        <a href="{{this}}" class="link" target="_blank"></a>
+        {{/each}}
     </div>
     <div class="tags">
         {{#each skills}}
           <a href="#">{{this}}</a>
         {{/each}}
     </div>
+    {{#if blurb}}
+    <div class="blurb">{{blurb}}</a></div>
+    {{/if}}
 
 
   </div>

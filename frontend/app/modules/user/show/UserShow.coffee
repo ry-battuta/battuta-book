@@ -11,7 +11,8 @@
     template: (json) =>
       template = require './templates/signIn'
       if (@model.get('in'))
-        template = require './templates/signOut'
+        template = require './templates/signIn'
+
       template(json)
     tagName: 'li'
     modelEvents:
