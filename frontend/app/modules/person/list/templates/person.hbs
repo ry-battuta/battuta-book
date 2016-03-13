@@ -1,4 +1,4 @@
-<div class="person col-md-3">
+<div class="person">
   <img src="{{avatar}}" class="avatar">
 
   <div class="overlay">
@@ -10,9 +10,11 @@
         <a href="http://twitter.com/{{twitter_handle}}" class="twitter" target="_blank"></a>
         {{/if}}
         {{#if email}}
-        <a href="mailto:{{email}}" class="email">@</a>
+        <a href="mailto:{{email}}" class="email"></a>
         {{/if}}
-        <a href="#" class="link">URL</a>
+        {{#each links}}
+        <a href="{{this}}" class="link" target="_blank"></a>
+        {{/each}}
     </div>
     <div class="tags">
         {{#each skills}}

@@ -40,6 +40,10 @@
 	font-size: 14px;
 }
 
+.icons {
+	display: block;
+}
+
 .icons a {
 	width: 25px;
 	height: 25px;
@@ -51,6 +55,22 @@
 
 .icons .twitter
 {
-	background-image: url(../../images/icons/TwitterLogo_white.png);
+	background-image: url(../../images/icons/TwitterLogo.png);
 	background-size: 100%;
+}
+
+.icons .email
+{
+	background-image: url(../../images/icons/email.png);
+	background-size: 100%;
+}
+
+.icons .link
+{
+	background-image: url(../../images/icons/link.png);
+	background-size: 100%;
+}
+.tags
+{
+	display: block;
 }

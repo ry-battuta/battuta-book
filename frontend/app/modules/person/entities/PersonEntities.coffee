@@ -6,6 +6,7 @@
       last_name: "Garcia",
       email: 'i@gmail.com',
       twitter_handle: '@i',
+      links: ['www.google.com']
       avatar: 'http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
       homebase: 'US',
       profession: 'Software Developer',
