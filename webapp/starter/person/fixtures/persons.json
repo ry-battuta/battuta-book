@@ -1,36 +1,857 @@
 [
-{
-    "model": "person.person",
-    "pk": "0600f10a-f8e4-43f8-9c82-374771828b74",
-    "fields": {
-        "email": "user1@remoteyear.com",
-        "token": "",
-        "is_active": true,
-        "is_admin": false,
-        "first_name": "user",
-        "last_name": "one",
-        "twitter_handle": "@userone",
-        "homebase": "homebase1",
-        "profession": "nerd1",
-        "current_location": "buenos aires",
-        "blurb": "this is a test one"
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Dallas, Texas",
+            "first_name": "Adelaida",
+            "homebase": "Bogota, Colombia",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Diaz-Roa",
+            "profession": "COO/ Co-Owner",
+            "twitter_handle": "https://twitter.com/Adelaida_Sofia"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Goldsboro, NC",
+            "first_name": "Alondo",
+            "homebase": "Atlanta, GA",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Brewington",
+            "profession": "Mobile App Developer",
+            "twitter_handle": "@abrewing @thecocoanomad"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Austin, TX",
+            "first_name": "Amanda",
+            "homebase": "Houston, TX",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "McMicken",
+            "profession": "Product Designer",
+            "twitter_handle": ""
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Los Angeles, California",
+            "first_name": "Andy",
+            "homebase": "Princeton, NJ",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Simon",
+            "profession": "Marketing communications for an international water treatment technology start-up company",
+            "twitter_handle": "www.twitter.com/asimon1267"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "New York City, NY",
+            "first_name": "Arielle",
+            "homebase": "New York, NY",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Darr",
+            "profession": "Content Manager",
+            "twitter_handle": "https://twitter.com/girlseeworld"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Chicago, Illinois",
+            "first_name": "Ben",
+            "homebase": ", Illinois",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Schmidtke",
+            "profession": "Sr. Full Stack Developer/Consultant",
+            "twitter_handle": "https://twitter.com/bschmidtke3"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "East Lansing, Michigan",
+            "first_name": "Cait",
+            "homebase": "Allegan, Michigan",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Ryan",
+            "profession": "UX designer/researcher, content strategist, instructional designer, writer",
+            "twitter_handle": "@caitrb"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Kalaheo, Hawaii",
+            "first_name": "Carmel",
+            "homebase": "Kalaheo, Hawaii",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Legacy",
+            "profession": "Digital Marketing Strategiest",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Malibu, California",
+            "first_name": "Carol",
+            "homebase": "Chicago, Illinois",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Kmiec",
+            "profession": "Teacher",
+            "twitter_handle": "NA"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Los Angeles, California",
+            "first_name": "Christine",
+            "homebase": "New Canaan, Connecticut",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Wozniak",
+            "profession": "Contract Immigration Attorney",
+            "twitter_handle": "twitter.com/ccwozniak"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Chicago, IL",
+            "first_name": "Colleen",
+            "homebase": "Ann Arbor, MI, USA",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Sain",
+            "profession": "Software Engineer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Washington, DC, USA",
+            "first_name": "Danny",
+            "homebase": "Highland Park, Illinois / USA",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Wein",
+            "profession": "Press Secretar / Freelance Marketer + Communications",
+            "twitter_handle": "twitter.com/danielwein"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Denver, CO",
+            "first_name": "Dianne",
+            "homebase": "Atlanta, GA",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Eberhardt",
+            "profession": "Graphic Designer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Hood River, Oregon",
+            "first_name": "Dustin",
+            "homebase": "Los Angeles, California",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Johnson",
+            "profession": "Software Engineer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Dallas, Texas",
+            "first_name": "Emily",
+            "homebase": "Ridgefield, Connecticut",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Heaslip",
+            "profession": "Global content editor",
+            "twitter_handle": "https://twitter.com/IMCEmily"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Winnipeg, Manitoba",
+            "first_name": "Eryn",
+            "homebase": "Winnipeg, Manitoba",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Peters",
+            "profession": "Still looking!",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Boston, Massachusetts",
+            "first_name": "Hannah",
+            "homebase": "Nashua, New Hampshire",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Wolper",
+            "profession": "Restaurant Chief Operations Manager",
+            "twitter_handle": "https://twitter.com/hwolps"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Singapore, Singapore",
+            "first_name": "Jennifer",
+            "homebase": "Singapore, Singapore",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Soon",
+            "profession": "ex-Accounts Manager",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Brooklyn, New York",
+            "first_name": "Jessica",
+            "homebase": "Phoenix, Arizona",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "DeWitt",
+            "profession": "Designer/Marketing Strategist",
+            "twitter_handle": "https://twitter.com/msjessicanoele"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Austin, TX",
+            "first_name": "Jessie",
+            "homebase": "Austin , TX",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Lang",
+            "profession": "Entrepreneur",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Baltimore, MD",
+            "first_name": "Joe",
+            "homebase": "Baltimore, California",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Cloughley",
+            "profession": "Front End Web Designer & Developer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "San Francisco, California",
+            "first_name": "John",
+            "homebase": "Saratoga , California",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Gragnola",
+            "profession": "Business/Marketing and Sales Operations",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "San Francisco, California",
+            "first_name": "Jono",
+            "homebase": "Cupertino, California",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Lee",
+            "profession": "Product Designer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Akron, Ohio",
+            "first_name": "Josiah (Jo)",
+            "homebase": "Akron, Ohio",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Sprague",
+            "profession": "Software Engineer",
+            "twitter_handle": "@jsnwp"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Grootebroek, The Netherlands",
+            "first_name": "Jurjen",
+            "homebase": "Grootebroek, The Netherlands",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Smakman",
+            "profession": "Developer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "New York , NY, USA",
+            "first_name": "Justin",
+            "homebase": "El Paso, TX, USA",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Hines",
+            "profession": "Software Engineer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": ",",
+            "first_name": "Katherine",
+            "homebase": "Fort Worth, Texas",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Conaway",
+            "profession": "Producer / Strategy",
+            "twitter_handle": "https://twitter.com/misskconaway"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Atlanta, Georgia",
+            "first_name": "Kendall",
+            "homebase": "Atlanta, Georgia",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Reed",
+            "profession": "Marketing Specialist",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Berlin, Germany",
+            "first_name": "Kipp",
+            "homebase": "Nyack, New York",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Jarden",
+            "profession": "Freelance Animator / visual artist",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Holland Landing, Ontario",
+            "first_name": "Krista",
+            "homebase": "Holland Landing, but let's just call it Toronto, Ontario",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Maier",
+            "profession": "content strategist and writer,",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "New York , New York",
+            "first_name": "Laura",
+            "homebase": "Greensboro, North Carolina",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Hansen",
+            "profession": "Freelance Graphic Design",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Santa Monica, California",
+            "first_name": "Lauren",
+            "homebase": "Los Angeles, CA",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Darnell",
+            "profession": "HospitalityTravel Industry - Sales (but looking for new job/industry)",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Charlotte, North Carolina",
+            "first_name": "Lauren",
+            "homebase": "Dover, New Hampshire",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Dunn",
+            "profession": "Owner/Principal Consultant",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Brooklyn, New York, USA",
+            "first_name": "Lauren",
+            "homebase": "Rancho Palos Verdes, California",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Hom",
+            "profession": "Illustrator & Artist",
+            "twitter_handle": "twitter.com/heyhomsweethom"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Zurich, Switzerland",
+            "first_name": "Leo",
+            "homebase": "Bogota, Colombia",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Franco",
+            "profession": "Fund Manager",
+            "twitter_handle": "-"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "San Francisco, California",
+            "first_name": "Luis",
+            "homebase": "San Francisco, California",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Chia",
+            "profession": "Healthcare Consultant",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "London, UK",
+            "first_name": "Marc",
+            "homebase": "Reading, UK",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Weldon",
+            "profession": "Data architecture",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Grand Rapids, MI",
+            "first_name": "Marianne",
+            "homebase": "Sparta, MI, USA",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Brown",
+            "profession": "Statistician",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Gainesville, Florida",
+            "first_name": "Martin",
+            "homebase": "Gainesville, Florida",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Smith",
+            "profession": "DevOps Engineer",
+            "twitter_handle": "twittter.com/martinb3"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Washington, DC",
+            "first_name": "Maya",
+            "homebase": "Silver Spring, MD",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Yette",
+            "profession": "Lawyer",
+            "twitter_handle": "@m_yette"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Los Angeles, California",
+            "first_name": "Michael",
+            "homebase": "Oak Ridge, Tennessee",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Edgcumbe",
+            "profession": "Creative Technologist / iOS Developer",
+            "twitter_handle": "N/A"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Taunton, Somerset,UK",
+            "first_name": "Natalie",
+            "homebase": "Taunton, Somerset, UK",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Tulloch",
+            "profession": "About to start - Travel. previously Accountant",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Arlington, VA",
+            "first_name": "Niraj",
+            "homebase": "La Habra, CA",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Shah",
+            "profession": "Project Manager",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "San Francisco, California",
+            "first_name": "Peter",
+            "homebase": "San Francisco, California",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Knudson",
+            "profession": "Game Designer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Salt Lake City, Utah",
+            "first_name": "Rachel",
+            "homebase": "Salt Lake City, Utah",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Scott",
+            "profession": "Graphic Designer / Social Media",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Washington, DC",
+            "first_name": "Rebecca",
+            "homebase": "Washington, DC",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Rubin",
+            "profession": "Marketing Coach, Entrepreneur",
+            "twitter_handle": "@RebeccaIRubin"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Chicago, IL",
+            "first_name": "Rik",
+            "homebase": "Cincinnati, Ohio",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Buddhdev",
+            "profession": "Sr. Event Strategist / Digital PM",
+            "twitter_handle": "https://twitter.com/BwnMamba"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Toronto, Canada",
+            "first_name": "Sabrina",
+            "homebase": "Toronto, Canada",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Colella",
+            "profession": "Marketing Director",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "New York , New York",
+            "first_name": "Sarah",
+            "homebase": "Saratoga , New York",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Rabideau",
+            "profession": "Sales Planning / Marketing Strategy",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "London, United Kingdom",
+            "first_name": "Sissi",
+            "homebase": "Komotini, Greece",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Papadimou",
+            "profession": "Translator",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Les Sables d'Olonne, France",
+            "first_name": "Stephane",
+            "homebase": "Athens, Greece",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Ellis",
+            "profession": "Front End Web Designer & Developer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Oakland, California",
+            "first_name": "Stephen",
+            "homebase": "San Jose, California",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Genest",
+            "profession": "Director of Marketing",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Copenhagen, Denmark",
+            "first_name": "Tanja",
+            "homebase": "Tiny town in rural Denmark!, Not applicable to Denmark :-)",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Blicher",
+            "profession": "Communications Consultant",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Seattle, Washington",
+            "first_name": "Tarryn",
+            "homebase": "Johannesburg, South Africa",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Marcus",
+            "profession": "Mankering Manager",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "Durham, North Carolina",
+            "first_name": "Taylor",
+            "homebase": "Chapel Hill, North Carolina",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Coil",
+            "profession": "Marketing Manager",
+            "twitter_handle": "https://twitter.com/taylorcoil"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "London, UK",
+            "first_name": "Tiago",
+            "homebase": "Aveiro, Portugal",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Almeida",
+            "profession": "Frontend Developer",
+            "twitter_handle": 0
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
+    },
+    {
+        "fields": {
+            "blurb": "",
+            "current_location": "New Orleans, LA, U.S.A.",
+            "first_name": "Victoria",
+            "homebase": "Rotterdam, The Netherlands",
+            "is_active": true,
+            "is_admin": false,
+            "last_name": "Griesdoorn",
+            "profession": "Freelance Project Manager & Entrepeneur/Business Developer",
+            "twitter_handle": "https://twitter.com/vdgriesdoorn"
+        },
+        "model": "person.person",
+        "pk": "197a9367-c7ce-471a-b961-38b339bd24ac"
     }
-},
-{
-    "model": "person.person",
-    "pk": "0600f10a-f8e4-43f8-9c82-374771828b75",
-    "fields": {
-        "email": "user3@remoteyear.com",
-        "token": "",
-        "is_active": true,
-        "is_admin": false,
-        "first_name": "user",
-        "last_name": "two",
-        "twitter_handle": "@usertwo",
-        "homebase": "homebase2",
-        "profession": "nerd1",
-        "current_location": "buenos aires",
-        "blurb": "this is a test two"
-    }
-}
 ]
