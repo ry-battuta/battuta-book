@@ -31,11 +31,13 @@ class PersonAdmin(admin.ModelAdmin):
                          ('Blurb', {'fields': ('blurb',)}), ]
             return fieldsets
 
+
 @admin.register(Tag)
 class TagAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name',)
+    list_display = ('name',)
     ordering = ('name',)
     search_fields = ('name',)
+    readonly_fields = ('id',)
 
     def get_fieldsets(self, request, obj=None):
         if obj:
@@ -50,9 +52,10 @@ class TagAdmin(admin.ModelAdmin):
 
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
-    list_display = ('id', 'name',)
+    list_display = ('name',)
     ordering = ('name',)
     search_fields = ('name',)
+    readonly_fields = ('id',)
 
     def get_fieldsets(self, request, obj=None):
         if obj:
