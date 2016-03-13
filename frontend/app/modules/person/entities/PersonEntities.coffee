@@ -2,8 +2,8 @@
 
   class Person extends Backbone.Model
     defaults:
-      first_name: "Huan",
-      last_name: "Garsia",
+      first_name: "Juan",
+      last_name: "Garcia",
       email: 'i@gmail.com',
       twitter_handle: '@i',
       avatar: 'http://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50',
