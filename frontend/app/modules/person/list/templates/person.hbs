@@ -6,8 +6,12 @@
   <h2>{{first_name}} {{last_name}}</h2>
   <h3>{{profession}}</h3>
     <div class='icons'>
-        <a href="#" class="twitter">{{twitter_handle}}</a>
-        <a href="#" class="email">{{email}}</a>
+        {{#if twitter_handle}}
+        <a href="http://twitter.com/{{twitter_handle}}" class="twitter" target="_blank"></a>
+        {{/if}}
+        {{#if email}}
+        <a href="mailto:{{email}}" class="email">@</a>
+        {{/if}}
         <a href="#" class="link">URL</a>
     </div>
     <div class="tags">
