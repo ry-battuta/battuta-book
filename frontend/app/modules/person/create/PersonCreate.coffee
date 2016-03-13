@@ -17,6 +17,7 @@
       "#first_name"        : "first_name"
       "#last_name"         : "last_name"
       "#email"             : "email"
+      "#password"          : "password"
       "#twitter_handle"    : "twitter_handle"
       "#avatar"            : "avatar"
       "#homebase"          : "homebase"
