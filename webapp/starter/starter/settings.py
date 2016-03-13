@@ -49,17 +49,7 @@ REST_FRAMEWORK = {
     # or allow read-only access for unauthenticated users.
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework.authentication.TokenAuthentication',
-    ),
-    'DEFAULT_THROTTLE_CLASSES': (
-        'rest_framework.throttling.AnonRateThrottle',
-        'rest_framework.throttling.UserRateThrottle',
-        'proof.throttles.UserBurstRateThrottle'
-    ),
-    'DEFAULT_THROTTLE_RATES': {
-        'anon': '10000/day',
-        'user': '10000/day',
-        'user_burst': '120/min'
-    }
+    )
 }
 
 MIDDLEWARE_CLASSES = [

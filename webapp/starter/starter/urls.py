@@ -16,6 +16,12 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
+from person import endpoints as pe
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+
+
+    # People
+    url(r'^api/v1/people(/)?$', pe.people_list),
 ]
