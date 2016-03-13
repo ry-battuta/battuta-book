@@ -15,20 +15,25 @@ class PersonAdmin(admin.ModelAdmin):
         if obj:
             # update
             fieldsets = [(None, {'fields': ('id', 'first_name', 'last_name')}),
-                         (None, {'fields': ('twitter_handle', 'homebase', 'profession', 'current_location')}),
+                         ('basics', {'fields': ('homebase', 'current_location', 'profession')}),
+                         ('remote_year', {'fields': ('ry_gen_name', 'ry_gen_date')}),
+                         ('admin', {'fields': ('is_active', 'is_admin')}),
+                         ('social', {'fields': ('social_website', 'social_facebook', 'social_instagram', 'social_twitter', 'social_linkedin', 'social_medium', 'social_podcast', 'social_other')}),
                          ('Blurb', {'fields': ('blurb',)}), ]
             return fieldsets
         else:
             # create
-            fieldsets = [(None, {'fields': ('first_name', 'last_name')}),
-                         (None, {'fields': ('twitter_handle', 'homebase', 'profession', 'current_location')}),
+            fieldsets = [(None, {'fields': ('id', 'first_name', 'last_name')}),
+                         ('basics', {'fields': ('homebase', 'current_location', 'profession')}),
+                         ('remote_year', {'fields': ('ry_gen_name', 'ry_gen_date')}),
+                         ('admin', {'fields': ('is_active', 'is_admin')}),
+                         ('social', {'fields': ('social_website', 'social_facebook', 'social_instagram', 'social_twitter', 'social_linkedin', 'social_medium', 'social_podcast', 'social_other')}),
                          ('Blurb', {'fields': ('blurb',)}), ]
             return fieldsets
 
-
 @admin.register(Tag)
 class TagAdmin(admin.ModelAdmin):
-    list_display = ('name',)
+    list_display = ('id', 'name',)
     ordering = ('name',)
     search_fields = ('name',)
 
@@ -45,7 +50,7 @@ class TagAdmin(admin.ModelAdmin):
 
 @admin.register(Question)
 class QuestionAdmin(admin.ModelAdmin):
-    list_display = ('name',)
+    list_display = ('id', 'name',)
     ordering = ('name',)
     search_fields = ('name',)
 
