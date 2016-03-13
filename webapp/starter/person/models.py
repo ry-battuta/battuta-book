@@ -39,12 +39,12 @@ class Person(models.Model):
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
 
-    first_name = models.CharField(max_length=40, blank=True)
-    last_name = models.CharField(max_length=40, blank=True)
+    first_name = models.CharField(max_length=60, blank=True)
+    last_name = models.CharField(max_length=60, blank=True)
 
-    homebase = models.CharField(max_length=40, blank=True)
-    profession = models.CharField(max_length=40, blank=True)
-    current_location = models.CharField(max_length=40, blank=True)
+    homebase = models.CharField(max_length=100, blank=True)
+    profession = models.CharField(max_length=100, blank=True)
+    current_location = models.CharField(max_length=100, blank=True)
     blurb = models.TextField(max_length=200, blank=True)
 
     ry_gen_name = models.CharField(max_length=40, blank=True)
