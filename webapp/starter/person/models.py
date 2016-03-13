@@ -11,8 +11,13 @@ class Tag(models.Model):
         db_table = 'tag'
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+<<<<<<< HEAD
     name = models.CharField(max_length=40, blank=True)
     group = models.CharField(max_length=40, blank=True)
+=======
+    name = models.CharField(max_length=100, blank=True)
+    group = models.CharField(max_length=100, blank=True)
+>>>>>>> origin/master
 
 
 class Question(models.Model):
@@ -21,7 +26,11 @@ class Question(models.Model):
         db_table = 'question'
 
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+<<<<<<< HEAD
     name = models.CharField(max_length=40, blank=True)
+=======
+    name = models.CharField(max_length=255, blank=True)
+>>>>>>> origin/master
 
 
 class Person(models.Model):
