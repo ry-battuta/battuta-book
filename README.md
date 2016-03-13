@@ -155,30 +155,30 @@ $ docker exec [container_name] touch /etc/uwsgi/reload-uwsgi.ini
 
 # create migration file for an app
 $ docker exec -it [container-name] \
-    python /srv/[project-name]/manage.py makemigrations scheduler
+    python /srv/starter/manage.py makemigrations scheduler
 
 # migrate
 $ docker exec -it [container-name] \
-    python3 /srv/[project-name]/manage.py migrate
+    python3 /srv/starter/manage.py migrate
 
 # get sql contents of a migration
 $ docker exec -it [container-name] \
-    python3 /srv/[project-name]/manage.py sqlmigrate [appname] 0001
+    python3 /srv/starter/manage.py sqlmigrate [appname] 0001
 
 # get to interactive console
 $ docker exec -it [container-name] \
-    python3 /srv/[project-name]/manage.py shell
+    python3 /srv/starter/manage.py shell
 
 # testing
 docker exec [container-name] \
-    python3 /srv/[project-name]/manage.py test
+    python3 /srv/starter/manage.py test
 ```
 
 ## Troubleshooting
 Q: I get the following error message when using the docker command:
 
 ```
-FATA[0000] Get http:///var/run/docker.sock/v1.16/containers/json: dial unix /var/run/docker.sock: permission denied. Are you trying to connect to a TLS-enabled daemon without TLS? 
+FATA[0000] Get http:///var/run/docker.sock/v1.16/containers/json: dial unix /var/run/docker.sock: permission denied. Are you trying to connect to a TLS-enabled daemon without TLS?
 
 ```
 
