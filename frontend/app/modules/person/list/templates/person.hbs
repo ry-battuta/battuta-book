@@ -1,19 +1,21 @@
-<div class="overlay">
-    <h1>{{blurb}}</h1>
-    <h2>{{first_name}} {{last_name}}</h2>
+<div class="person">
+  <img src="{{avatar}}" class="avatar">
 
-    <p class="tag">Pet my little furry head.</p>
+  <div class="overlay">
 
+  <h2>{{first_name}} {{last_name}}</h2>
+  <h3>{{profession}}</h3>
     <div class='icons'>
         <a href="#" class="twitter">{{twitter_handle}}</a>
         <a href="#" class="email">{{email}}</a>
         <a href="#" class="link">URL</a>
     </div>
-
     <div class="tags">
         {{#each skills}}
           <a href="#">{{this}}</a>
         {{/each}}
     </div>
 
+
+  </div>
 </div>

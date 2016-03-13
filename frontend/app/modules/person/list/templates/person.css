@@ -1,0 +1,12 @@
+.overlay
+{
+//  display:none;
+background-color:rgba(0, 0, 0, 0.5);
+position: relative;
+}
+
+.avatar
+{
+  width: 200px;
+  position: relative;
+}
